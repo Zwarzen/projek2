@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_home">
+
+    <fragment
+        android:id="@+id/nav_home"
+        android:name="org.aplas.projek2.ui.home.HomeFragment"
+        android:label="@string/menu_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/nav_gallery"
+        android:name="org.aplas.projek2.ui.gallery.GalleryFragment"
+        android:label="@string/menu_gallery"
+        tools:layout="@layout/fragment_gallery" />
+
+    <fragment
+        android:id="@+id/nav_slideshow"
+        android:name="org.aplas.projek2.ui.slideshow.SlideshowFragment"
+        android:label="@string/menu_slideshow"
+        tools:layout="@layout/fragment_slideshow" />
+
+    <fragment
+        android:id="@+id/nav_ceksurat"
+        android:name="org.aplas.projek2.ui.CekSurat.CekSuratFragment"
+        android:label="@string/menu_ceksurat"
+        tools:layout="@layout/fragment_ceksurat" />
+
+    <fragment
+        android:id="@+id/nav_about"
+        android:name="org.aplas.projek2.ui.about.aboutFragment"
+        android:label="@string/menu_about"
+        tools:layout="@layout/fragment_about" />
+
+    <fragment
+        android:id="@+id/nav_buatsurat"
+        android:name="org.aplas.projek2.ui.buatsurat.buatsuratFragment"
+        android:label="@string/menu_buatsurat"
+        tools:layout="@layout/fragment_buatsurat" />
+
+    <fragment
+        android:id="@+id/nav_kirimsurat"
+        android:name="org.aplas.projek2.ui.kirimsurat.kirimsuratFragment"
+        android:label="@string/menu_kirimsurat"
+        tools:layout="@layout/fragment_kirimsurat" />
+</navigation>
