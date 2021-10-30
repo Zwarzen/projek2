@@ -24,6 +24,15 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        /*
+        private RecyclerView rvMenu;
+        private ArrayList<Menu> list = new ArrayList<>();
+
+        rvMenu = findViewById(R.id.rv_menu);
+        rvMenu.setHasFixedSize(true);
+
+        list.addAll(MenuData.getListData());
+        showRecyclerList();*/
 
         binding = ActivityMainBinding.inflate(getLayoutInflater());
         setContentView(binding.getRoot());
@@ -49,6 +58,12 @@ public class MainActivity extends AppCompatActivity {
         NavigationUI.setupWithNavController(navigationView, navController);
     }
 
+    /*private void showRecyclerList(){
+        rvMenu.setLayoutManager(new LinearLayoutManager(this));
+        ListMenuAdapter listMenuAdapter = new listMenuAdapter(list);
+        rvMenu.setAdapter(listMenuAdapter);
+    }*/
+
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
         // Inflate the menu; this adds items to the action bar if it is present.
@@ -62,4 +77,6 @@ public class MainActivity extends AppCompatActivity {
         return NavigationUI.navigateUp(navController, mAppBarConfiguration)
                 || super.onSupportNavigateUp();
     }
+
+
 }

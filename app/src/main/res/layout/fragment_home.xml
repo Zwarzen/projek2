@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -25,15 +25,8 @@
                 android:layout_height="wrap_content"
                 android:textSize="40sp"
                 android:textColor="#FFFFFF"
-                android:text="My Dashboard"/>
-            <TextView
-                android:id="@+id/txAppItems"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginTop="90dp"
-                android:textSize="20sp"
-                android:textColor="#52BAFF"
-                android:text="6 Items"/>
+                android:text="@string/menu_home"/>
+
         </RelativeLayout>
 
         <GridLayout
@@ -49,12 +42,9 @@
                 android:id="@+id/cvAdd"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_ColumnWeight="1"
-                android:layout_RowWeight="1"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="15dp"
-                android:layout_margin="10dp"
-                >
+                android:layout_margin="10dp">
 
                 <LinearLayout
                     android:orientation="vertical"
@@ -69,7 +59,7 @@
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textSize="13sp"
-                        android:text="Buat Surat"
+                        android:text="@string/menu_buatsurat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
@@ -78,8 +68,6 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_ColumnWeight="1"
-                android:layout_RowWeight="1"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="15dp"
                 android:layout_margin="10dp">
@@ -96,7 +84,7 @@
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textSize="13sp"
-                        android:text="Cek Surat"
+                        android:text="@string/menu_ceksurat"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
@@ -105,8 +93,6 @@
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_ColumnWeight="1"
-                android:layout_RowWeight="1"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="15dp"
                 android:layout_margin="10dp">
@@ -123,17 +109,15 @@
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textSize="13sp"
-                        android:text="Kirim Surat"
+                        android:text="@string/menu_kirimsurat"
                         android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"/>d
+                        android:layout_height="wrap_content"/>
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_ColumnWeight="1"
-                android:layout_RowWeight="1"
                 app:cardElevation="8dp"
                 app:cardCornerRadius="15dp"
                 android:layout_margin="10dp">
@@ -150,7 +134,7 @@
                     <TextView
                         android:layout_marginTop="12dp"
                         android:textSize="13sp"
-                        android:text="Tentang Apps"
+                        android:text="@string/menu_about"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"/>
                 </LinearLayout>
@@ -160,4 +144,4 @@
     </LinearLayout>
 
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+</LinearLayout>

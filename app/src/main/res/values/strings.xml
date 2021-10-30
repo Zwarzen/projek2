@@ -1,34 +1,22 @@
 <resources>
-    <string name="app_name">CekSurat</string>
-    <string name="generate_surat">[Nama Perusahaan]<br></br>
-[Alamat]<br></br>
-        Telp. [xxx]<br></br>
-        [Tempat dan Tanggal]<br></br>
-        Nomor			:<br></br>
-        Lampiran		:<br></br>
-        Perihal		:<br></br>
+        <string name="navigation_drawer_open">Open navigation drawer</string>
+        <string name="navigation_drawer_close">Close navigation drawer</string>
+        <string name="nav_header_title">Admin</string>
+        <string name="nav_header_subtitle">Admin@gmail.com</string>
+        <string name="nav_header_desc">Navigation header</string>
+        <string name="action_settings">Settings</string>
 
-        Kepada Yth.<br></br>
-        [Nama]<br></br>
-        [Jabatan dalam Perusahaan]<br></br>
-
-        Dengan hormat,<br></br>
-Berkaitan dengan adanya rencana pembukaan cabang baru [Nama Perusahaan] di wilayah Sulawesi, kami mengundang seluruh jajaran tinggi perusahaan untuk menghadiri rapat koordinasi. Rapat akan dilaksanakan pada:
-        <br></br>
-        Hari / Tanggal		:<br></br>
-        Waktu				:<br></br>
-        Tempat			:<br></br>
-
-Demikian surat undangan rapat ini kami buat dengan sebenar-benarnya. Semoga bapak/ibu bisa hadir tepat waktu. Atas perhatiannya, diucapkan terima kasih.
-        <br></br>
-
-Hormat kami,
-        <br></br>
+        <string name="menu_home">Dashboard</string>
+        <string name="menu_gallery">Gallery</string>
+        <string name="menu_slideshow">Slideshow</string>
+        <string name="menu_ceksurat">Cek Surat</string>
+        <string name="menu_about">About</string>
+        <string name="menu_buatsurat">Buat surat</string>
+        <string name="menu_kirimsurat">Kirim Surat</string>
 
 
-[Nama]<br></br><br></br>
-[Jabatan dalam Perusahaan]
-</string>
+        <string name="app_name">CekSurat</string>
+        <string name="generate_surat">[Nama Perusahaan]<br></br>[Alamat]<br></br>Telp. [xxx]<br></br>[Tempat dan Tanggal]<br></br>Nomor			:<br></br>Lampiran		:<br></br>Perihal		:<br></br>Kepada Yth.<br></br>[Nama]<br></br>[Jabatan dalam Perusahaan]<br></br>Dengan hormat,<br></br>Berkaitan dengan adanya rencana pembukaan cabang baru [Nama Perusahaan] di wilayah Sulawesi, kami mengundang seluruh jajaran tinggi perusahaan untuk menghadiri rapat koordinasi. Rapat akan dilaksanakan pada:<br></br>Hari / Tanggal		:<br></br>Waktu				:<br></br>Tempat			:<br></br>Demikian surat undangan rapat ini kami buat dengan sebenar-benarnya. Semoga bapak/ibu bisa hadir tepat waktu. Atas perhatiannya, diucapkan terima kasih.<br></br>Hormat kami,<br></br>[Nama]<br></br><br></br>[Jabatan dalam Perusahaan]</string>
 
         <string name="button_generate">Buat Surat</string>
         <string name="button_kembali">Kembali</string>
